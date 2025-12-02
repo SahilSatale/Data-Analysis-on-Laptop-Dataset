@@ -1,24 +1,56 @@
-1️⃣ Laptop Price Analysis (EDA + Feature Engineering)
-🔍 Description
+# 💻 Laptop Price Analysis (EDA + Feature Engineering)
 
-Analyzed 1,300+ laptop records to understand price-driving components such as CPU, GPU, storage type, RAM, and display features.
+A comprehensive analysis of 1,300+ laptop records to understand the factors that influence laptop pricing.  
+This project focuses on cleaning, feature engineering, data visualization, and deriving actionable insights.
 
-🛠 Skills Used
+---
 
-Python · Pandas · NumPy · Matplotlib · Seaborn · Feature Engineering · EDA
+## 🔍 Project Overview
 
-📈 Insights
+This project explores how different hardware components — such as **CPU, GPU, RAM, storage type, and display features** — affect laptop prices.  
+The goal was to engineer meaningful features and visualize trends to identify key price drivers.
 
-CPU & GPU brand heavily influence price.
+---
 
-Touchscreen and IPS panel laptops showed 20–30% higher price trends.
+## 🛠 Skills & Technologies Used
 
-SSD-based laptops receive better value ratings than HDD.
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **EDA (Exploratory Data Analysis)**
+- **Feature Engineering**
 
-🧹 Tasks Performed
+---
 
-Cleaned missing values & standardized formats.
+## 📈 Key Insights
 
-Engineered 15+ new features (CPU_BRAND, TouchScreen, IPS, Storage_Type).
+1. **CPU & GPU brand** strongly influence price.  
+2. **Touchscreen** and **IPS display** laptops are priced **20–30% higher** on average.  
+3. **SSD-based laptops** offer better value and significantly higher pricing compared to HDD.  
+4. Engineered features like `CPU_BRAND`, `TouchScreen`, `IPS`, and `Storage_Type` helped improve analysis clarity.
 
-Built correlation heatmaps and distribution plots.
+---
+
+## 🧹 Tasks Performed
+
+- Cleaned missing values and standardized data formats.
+- Engineered **15+ new features**, including:
+  - `CPU_BRAND`
+  - `TouchScreen`
+  - `IPS`
+  - `Storage_Type`
+- Created distribution plots, boxplots, and correlation heatmaps.
+- Identified patterns and outliers influencing laptop prices.
+
+---
+
+## 📊 Visualizations
+
+Add your project images like this:
+
+```md
+![Correlation Heatmap](images/heatmap.png)
+![Price Distribution](images/price_distribution.png)
+![Feature Engineering Output](images/feature_engineering.png)
