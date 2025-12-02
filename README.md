@@ -45,7 +45,3 @@ The goal was to engineer meaningful features and visualize trends to identify ke
 - Identified patterns and outliers influencing laptop prices.
 
 ---
-
-![Correlation Heatmap](images/heatmap.png)
-![Price Distribution](images/price_distribution.png)
-![Feature Engineering Output](images/feature_engineering.png)
