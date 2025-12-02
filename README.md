@@ -46,11 +46,6 @@ The goal was to engineer meaningful features and visualize trends to identify ke
 
 ---
 
-## 📊 Visualizations
-
-Add your project images like this:
-
-```md
 ![Correlation Heatmap](images/heatmap.png)
 ![Price Distribution](images/price_distribution.png)
 ![Feature Engineering Output](images/feature_engineering.png)
